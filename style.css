@@ -1,0 +1,38 @@
+#hitmiss{
+	display: block;
+}
+#hitmiss-2{
+	background-color: aqua;
+	position: absolute;
+	margin: 10px;
+
+}
+#hitmiss-3{
+	position: absolute;
+	margin: 10px;
+}
+table{
+	table-layout:fixed;
+	width: 100%;
+	text-align: center;
+}
+td{
+	border: 1px solid;
+	height: 30px;
+}
+.controls{
+	display: block;
+	position: absolute;
+	top: 400px;
+	width: 100%;
+}
+.scores, .settings{
+	display: flex;
+	width: 100%;
+}
+.score, .sub_settings{
+	flex: 1;
+	border: 2px;
+	text-align: center;
+}
+
